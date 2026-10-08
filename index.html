@@ -2,29 +2,53 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>WUG POWER MANAGER</title>
   
-  <!-- Favicon classique -->
-  <link rel="icon" type="image/jpeg" href="https://github.com/Zeus523-WUG/POWER-WUG/blob/main/WUG%20POWER%20ICON.jpg?raw=true">
+  <!-- Favicon avec le lien brut GitHub -->
+  <link rel="icon" type="image/jpeg" href="https://github.com/Zeus523-WUG/POWER-WUG/blob/main/WUG%20POWER%20ICON.jpg">
   
-  <!-- Icône pour les raccourcis sur iOS (iPhone / iPad) -->
-  <link rel="apple-touch-icon" href="https://github.com/Zeus523-WUG/POWER-WUG/blob/main/WUG%20POWER%20ICON.jpg?raw=true">
-  
-  <!-- Icône pour les raccourcis sur Android / Chrome -->
-  <link rel="shortcut icon" type="image/jpeg" href="https://github.com/Zeus523-WUG/POWER-WUG/blob/main/WUG%20POWER%20ICON.jpg?raw=true">
-
   <style>
-    body, html { margin: 0; padding: 0; height: 100%; overflow: hidden; font-family: Arial, sans-serif; }
-    .container { width: 100%; height: 100%; display: flex; flex-direction: column; }
-    .content { flex: 1; overflow: hidden; }
-    iframe { width: 100%; height: 100%; border: none; }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body, html {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background-color: #0f172a;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    .container {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+    .content {
+      flex: 1;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+      display: block;
+    }
   </style>
 </head>
 <body>
   <div class="container">
     <div class="content">
-      <iframe src="https://script.google.com/macros/s/AKfycbzdQAe2pAMR_fV-7CmGMn6l2qQJcSMLJgWFDqhK1x9wJRW4anaBlIoRhavf762QB4m3/exec"></iframe>
+      <iframe 
+        src="https://script.google.com/macros/s/AKfycbzdQAe2pAMR_fV-7CmGMn6l2qQJcSMLJgWFDqhK1x9wJRW4anaBlIoRhavf762QB4m3/exec"
+        allow="clipboard-write"
+        loading="lazy">
+      </iframe>
     </div>
   </div>
 </body>
